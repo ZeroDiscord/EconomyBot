@@ -1,27 +1,9 @@
 module.exports = {
-    token: "NzM4NjQ2NzcxNDQ5ODU2MDIw.XyO8aQ.DmdaZuJqR_bRx52APuH6OceixDA",
-    prefix: "z?",
+    token: "YOUR_TOKEN",
+    prefix: "PREFIX",
     admins: [
-        "603948445362946084"
-    ],
-    status: [
-        {
-            type: "PLAYING",
-            name: "with {users} users"
-        },
-        {
-            type: "LISTENING",
-            name: "{prefix}help for commands"
-        },
-        {
-            type: "WATCHING",
-            name: "{servers} servers"
-        },
-        {
-            type: "PLAYING",
-            name: "Subscribe To ZeroSync on Youtube"
-        }
-    ],
+        "PEOPLE WHO CAN USE ADD MONEY (IDS)"
+],
     debug: true,
-    countChannel: "countChannel"
+    countChannel: "countChannelID"
 };
