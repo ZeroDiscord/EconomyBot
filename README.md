@@ -22,3 +22,8 @@ MAKE A NEW ONE USING MY TUTORIAL :D``**
 [![Use on Repl.it](https://repl.it/badge/github/ZeroDiscord/EconomyBot)](https://repl.it/github/ZeroDiscord/EconomyBot)
 # Host On Glitch 
 [Click Here to Host On Glitch](https://glitch.com/edit/#!/import/git?url=https://github.com/ZeroDiscord/EconomyBot/)
+
+# Dependencies 
+*Discord.js v12
+*quick.db
+*quick.eco
