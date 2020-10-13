@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 
-module.exports.execute = (client, message, args) => {
+exports.execute = (client, message, args) => {
     let gatewayLatency = Math.floor(client.ws.ping);
     message.channel.send("Pinging...").then(m => {
         const trip = Math.floor(m.createdTimestamp - message.createdTimestamp);
@@ -14,7 +14,7 @@ module.exports.execute = (client, message, args) => {
     });
 }
 
-module.exports.help = {
+exports.help = {
     name: "ping",
     aliases: ["pong", "latency"],
     usage: `ping`
