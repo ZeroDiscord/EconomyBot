@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 
-module.exports.execute = async (client, message, args) => {
+exports.execute = async (client, message, args) => {
     const embed = new MessageEmbed()
         .setAuthor("Commands")
         .setTitle("Make Sure To Check Out This Channel For More Such Bots")
@@ -16,7 +16,7 @@ module.exports.execute = async (client, message, args) => {
     return message.channel.send(embed);
 }
 
-module.exports.help = {
+exports.help = {
     name: "help",
     aliases: ["h"],
     usage: `help`
