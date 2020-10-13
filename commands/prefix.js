@@ -1,4 +1,4 @@
-module.exports.execute = (client, message, args) => {
+exports.execute = (client, message, args) => {
     if (!message.member.hasPermission("MANAGE_GUILD") && !client.config.admins.includes(message.member.id)) return message.channel.send(`My prefix for this server is **${client.prefix}**.`);
     let prefix = args[0];
     if (!prefix) {
@@ -10,7 +10,7 @@ module.exports.execute = (client, message, args) => {
     }
 }
 
-module.exports.help = {
+exports.help = {
     name: "prefix",
     aliases: ["setprefix"],
     usage: `prefix`
