@@ -1,17 +1,17 @@
 {
-  "name": "GiveawayBot",
+  "name": "EconomyBot",
   "version": "1.0.0",
-  "description": "Giveaway bot created with discord-giveaways package in discord.js",
+  "description": "Economy bot created with quick.eco package in discord.js",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "author": "Zero",
-  "license": "nginx",
+  "license": "Nginx",
   "keywords": [
     "discord",
-    "giveaways",
-    "giveaway",
+    "Easy",
+    "Economy",
     "bot",
     "discord.js",
     "discordjs"
@@ -24,6 +24,6 @@
     "node": "12.x"
   },
   "repository": {
-    "url": "https://github.com/ZeroDiscord/GiveawayBot"
+    "url": "https://github.com/ZeroDiscord/EconomyBot"
   }
 }
