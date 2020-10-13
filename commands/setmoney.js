@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 
-module.exports.execute = async (client, message, args) => {
+exports.execute = async (client, message, args) => {
     if (!client.config.admins.includes(message.author.id)) return; // return if author isn't bot owner
     let user = message.mentions.users.first();
     if (!user) return message.channel.send("Please specify a user!");
@@ -17,7 +17,7 @@ module.exports.execute = async (client, message, args) => {
     return message.channel.send(embed);
 }
 
-module.exports.help = {
+exports.help = {
     name: "setmoney",
     aliases: ["setbal"],
     usage: `setmoney @user <amount>`
