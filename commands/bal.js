@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 
-module.exports.execute = async (client, message, args) => {
+exports.execute = async (client, message, args) => {
     let user = message.mentions.users.first() || message.author;
     let userBalance = client.eco.fetchMoney(user.id);
     const embed = new MessageEmbed()
@@ -14,7 +14,7 @@ module.exports.execute = async (client, message, args) => {
     return message.channel.send(embed);
 }
 
-module.exports.help = {
+exports.help = {
     name: "bal",
     aliases: ["money", "credits", "balance"],
     usage: `bal`
