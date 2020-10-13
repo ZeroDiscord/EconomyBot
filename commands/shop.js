@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 
-module.exports.execute = async (client, message, args) => {
+exports.execute = async (client, message, args) => {
   let items = Object.keys(client.shop);
   let content = "";
   
@@ -16,7 +16,7 @@ module.exports.execute = async (client, message, args) => {
   return message.channel.send(embed);
 };
 
-module.exports.help = {
+exports.help = {
   name: "shop",
   aliases: [],
   usage: `shop`
