@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 
-module.exports.execute = async (client, message, args) => {
+exports.execute = async (client, message, args) => {
   let userBalance = client.eco.fetchMoney(message.author.id);
   if (userBalance.amount < 1) return message.channel.send("Looks like you are poor.");
   let item = args[0];
@@ -20,7 +20,7 @@ module.exports.execute = async (client, message, args) => {
   return message.channel.send(`You purchased **${item}** for **:dollar: ${hasItem.cost}**.`);
 };
 
-module.exports.help = {
+exports.help = {
   name: "buy",
   aliases: [],
   usage: `buy <item>`
