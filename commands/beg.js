@@ -1,9 +1,9 @@
-module.exports.execute = async (client, message, args) => {
+exports.execute = async (client, message, args) => {
     let users = [
         "PewDiePie",
         "T-Series",
         "Sans",
-        "Peter"
+        "Zero"
     ];
     let amount = Math.floor(Math.random() * 50) + 10;
     let beg = client.eco.beg(client.ecoAddUser, amount, { canLose: true });
@@ -12,7 +12,7 @@ module.exports.execute = async (client, message, args) => {
     else return message.reply(`**${users[Math.floor(Math.random() * users.length)]}** donated you **${beg.amount}** 💸. Now you have **${beg.after}** 💸.`);
 };
 
-module.exports.help = {
+exports.help = {
     name: "beg",
     aliases: [],
     usage: "beg"
