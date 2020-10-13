@@ -21,4 +21,4 @@ MAKE A NEW ONE USING MY TUTORIAL :D``**
 # Host On Repl.it
 [![Use on Repl.it](https://repl.it/badge/github/ZeroDiscord/EconomyBot)](https://repl.it/github/ZeroDiscord/EconomyBot)
 # Host On Glitch 
-[ClickHere to Host On Glitch](https://glitch.com/edit/#!/import/git?url=https://github.com/ZeroDiscord/EconomyBot/)
+[Click Here to Host On Glitch](https://glitch.com/edit/#!/import/git?url=https://github.com/ZeroDiscord/EconomyBot/)
