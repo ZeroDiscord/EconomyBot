@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 
-module.exports.execute = async (client, message, args) => {
+exports.execute = async (client, message, args) => {
    
     let leaderboard = client.eco.leaderboard({ limit: 15, raw: false });
     if (!leaderboard || leaderboard.length < 1) return message.channel.send("❌ | Empty Leaderboard!");
@@ -15,7 +15,7 @@ module.exports.execute = async (client, message, args) => {
     return message.channel.send(embed);
 }
 
-module.exports.help = {
+exports.help = {
     name: "lb",
     aliases: ["leaderboard"],
     usage: `lb`
