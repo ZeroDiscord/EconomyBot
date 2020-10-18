@@ -1,12 +1,12 @@
 exports.execute = async (client, message, args) => {
-    let amount = Math.floor(Math.random() * 1500) + 1000;
-    let work = client.eco.work(client.ecoAddUser, amount);
-    if (work.onCooldown) return message.reply(`You are tired rn. Come back after ${work.time.minutes} minutes & ${work.time.seconds} seconds to work again.`);
-    else return message.reply(`You worked as **${work.workedAs}** and earned **${work.amount}** 💸. Now you have **${work.after}** 💸. Although you will see your balance empty if u do not sub to ZeroSync`);
+    let amount = Math.floor(Math.random() * 1000) + 500;
+    let addMoney = client.eco.weekly(client.ecoAddUser, amount);
+    if (addMoney.onCooldown) return message.reply(`You have already claimed your weekly credit. Come back after ${addMoney.time.days} days, ${addMoney.time.hours} hours, ${addMoney.time.minutes} minutes & ${addMoney.time.seconds} seconds to claim it again.`);
+    else return message.reply(`You have claimed **${addMoney.amount}** 💸 as your weekly credit & now you have **${addMoney.after}** 💸. But you will lose your balance if you do not subscribe to ZeroSync on yt :P`);
 };
 
 exports.help = {
-    name: "work",
+    name: "weekly",
     aliases: [],
-    usage: "work"
+    usage: "weekly"
 }
