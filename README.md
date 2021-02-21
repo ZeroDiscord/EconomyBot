@@ -1,11 +1,10 @@
 # Welcome To EconomyBot <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 ## This EconomyBot was written by 0_0#6666
-### Languge : JavaScript/NodeJS (Core Lang : EN)
+### Language : JavaScript/NodeJS (Core Lang : EN)
 ##### Library : Discord.js
 ###### Framework used : quick.eco by Snowflake Development
 
-**IN BOTCONFIG.JSON DO NOT CHANGE ANY VARIABLE THE CountChannel var is for if you want to set a channel to count for users if not just leave it blank AND EVERYTHING ELSE IS SELF EPLAINATORY JUST CHANGE THE VALUES 
-INSIDE "" TO MAKE YOUR BOT FUNCTION PROPERLY!**
+##### IN BOTCONFIG.JSON DO NOT CHANGE ANY VARIABLE THE CountChannel var is for if you want to set a channel to count for users if not just leave it blank AND EVERYTHING ELSE IS SELF EPLAINATORY JUST CHANGE THE VALUES INSIDE "" TO MAKE YOUR BOT FUNCTION PROPERLY!
 # Links
 - 🔗 [Youtube Channel](https://www.youtube.com/channel/UCF9E-xef9jL9QgziZRDHKKQ)
 - [Support Server Link](https://discord.gg/REAW5VM)
