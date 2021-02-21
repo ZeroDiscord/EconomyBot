@@ -10,7 +10,14 @@ INSIDE "" TO MAKE YOUR BOT FUNCTION PROPERLY!**
 Copyright 2020 © All RIghts are Reserved | If you are using any part of code please give me credits for the same. Thanks
 
 # License
-**nginx 2020 all rights reserved**
+**nginx 2021 all rights reserved**
+
+# Features
+- Shop
+- Customisable Daily, weekly , search , crime beg commands
+- Balance
+- Leaderboard
+- CodeFactor : Easily usable 
 
 **NOTE FOR GLITCH HOSTERS 
 `` THIS BOT DOES NOT DIE IT SENDS A HEARTBEAT (PING) EVERY 5 MINS TO THE GLITCH PROJECT SO THAT YOUR PROJECT STAYS ALIVE IF IT DOES NOT WORK FOR YOU THEN 
@@ -24,6 +31,9 @@ MAKE A NEW ONE USING MY TUTORIAL :D``**
 [Click Here to Host On Glitch](https://glitch.com/edit/#!/import/git?url=https://github.com/ZeroDiscord/EconomyBot/)
 
 # Dependencies 
-*Discord.js v12
+*Discord.js v12*
+## Contribute 
+### Feel free to contribute to the repository by forking it and submitting a pull request we would love to have you as a contributor! You mst read through the nginx code of conduct and the (Included) license carefully before submitting a pull request.
+
 *quick.db
 *quick.eco
