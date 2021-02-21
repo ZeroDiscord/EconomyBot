@@ -38,4 +38,4 @@ MAKE A NEW ONE USING MY TUTORIAL :D``**
 
 # Dependencies 
 - *Discord.js v12*
-- *quick.eco (has a devd. of quick.db and better-sqlite3*
+- *quick.eco (has a Dev dependency of quick.db and better-sqlite3*)
