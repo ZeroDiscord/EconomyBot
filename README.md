@@ -16,7 +16,7 @@ Copyright 2020 © All RIghts are Reserved | If you are using any part of code pl
 
 # Features
 - Shop
-- Customisable Daily, weekly , search , crime beg commands
+- Customisable Daily, weekly , search , crime and beg commands (earning)
 - Balance
 - Leaderboard
 - CodeFactor : Easily usable 
