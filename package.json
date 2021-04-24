@@ -18,7 +18,7 @@
   ],
   "dependencies": {
     "discord.js": "^12.5.3",
-    "quick.eco": "^5.0.0-dev1"
+    "quick.eco": "^2.0.3"
   },
   "engines": {
     "node": "12.x"
