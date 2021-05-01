@@ -7,7 +7,7 @@ exports.execute = async (client, message, args) => {
     .setThumbnail()
     .setTimestamp();
   const x = client.db.get(`items_${message.author.id}`);
-
+if(!x) { return message.channel.send(`No Items Found To Display`); }
 const arrayToObject = x.reduce((itemsobj, x) => {
     itemsobj[x.name] = (itemsobj[x.name] || 0) + 1;
     return itemsobj;
