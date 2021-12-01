@@ -5,7 +5,7 @@ exports.execute = async (client, message, args) => {
   if (userBalance.amount < 1) return message.channel.send("Looks like you are poor.");
   let item = args[0];
   if (!item) return message.channel.send("What are you trying to buy?");
-  let hasItem = client.shop[item.toLowerCase()];
+  let hasItem = client.shop[item];
   if (!hasItem || hasItem == undefined) return message.reply("That item doesnt exists lol");
   let isBalanceEnough = (userBalance.amount >= hasItem.cost);
   if (!isBalanceEnough) return message.reply("Your balance is insufficient. You need :dollar: "+hasItem.cost+" to buy this item.");
